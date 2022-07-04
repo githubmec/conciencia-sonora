@@ -7,7 +7,7 @@ Un proyecto que busca **visibilizar la exposición cotidiana al ruido**, orienta
 
 La señalización indica, a través de un patrón de colores, el grado de confort acústico en el espacio donde se encuentra.
 
-[www.concienciasonora.com.ar](https://infiniemlabs-acustica.github.io/conciencia-sonora/)
+[www.concienciasonora.com.ar](https://githubmec.github.io/conciencia-sonora/)
 
 ## Publicación 
 Disponible para descargar en:
@@ -40,5 +40,3 @@ Algunas de sus características son:
 ## Herramientas
 * https://cssgradient.io/
 * https://pixlr.com/es/x/
-
-##
