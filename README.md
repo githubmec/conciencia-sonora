@@ -28,7 +28,7 @@ Algunas de sus características son:
 * Botón de modo nocturno.
 * Accesible desde la red local, incluye interfaz con datos de medición.
 
-![](img/prototipo1.jpg)
+![](images/prototipo1.png)
 
 
 ## Template 
