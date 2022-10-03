@@ -887,7 +887,8 @@ input[type='checkbox'] {
 .basic-1 {
 	padding-top: 4rem;
 	padding-bottom: 2rem;
-	background: url('../images/features-2-background.png') center center no-repeat;
+	/*background: url('../images/features-2-background.png') center center no-repeat;*/
+	background-color: #000000;
 	background-size: cover;
 }
 

@@ -24,7 +24,7 @@ para el DNS, que [redirecciona la web](https://curiosidadesespaciales.ar/2020/09
 La solución a simular browser, SO, entre otros: https://live.browserstack.com.
 
 ## Indexado en buscador
-Para indexar la web se procedió a su verificacion utilizando [Google Search Console](https://search.google.com), siguiendo los paso del siguiente [documento](https://yossieliaz.medium.com/how-to-make-your-github-pages-website-searchable-by-google-c6f481ca3a19)
+Para indexar la web se procedió a su verificacion utilizando [Google Search Console](https://search.google.com/u/5/search-console?resource_id=http%3A%2F%2Fnoisen.com.ar%2F), siguiendo los paso del siguiente [documento](https://yossieliaz.medium.com/how-to-make-your-github-pages-website-searchable-by-google-c6f481ca3a19)
 
 ## Template 
 * Website: https://inovatik.com/revo-landing-page/index.html
