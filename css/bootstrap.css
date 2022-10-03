@@ -477,8 +477,27 @@ mark,
 }
 
 .img-fluid {
+  max-width: 85%;
+  height: auto;
+}
+
+.img-fluid2 {
+  max-width: 110%;
+  margin-bottom: 13rem;
+  height: auto;
+}
+
+.img-fluid3 {
+  max-width: 85%;
+  height: auto;
+  margin-bottom: 4rem;
+}
+
+.img-fluid4 {
   max-width: 100%;
   height: auto;
+  margin-bottom: -10rem;
+  margin-top: -7rem;
 }
 
 .img-thumbnail {
@@ -3065,7 +3084,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #212529;
+  color: #292221;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -3232,7 +3251,7 @@ input[type="button"].btn-block {
   padding: 0.25rem 1.5rem;
   clear: both;
   font-weight: 400;
-  color: #212529;
+  color: #292221;
   text-align: inherit;
   white-space: nowrap;
   background-color: transparent;
@@ -3242,7 +3261,7 @@ input[type="button"].btn-block {
 .dropdown-item:hover, .dropdown-item:focus {
   color: #16181b;
   text-decoration: none;
-  background-color: #f8f9fa;
+  
 }
 
 .dropdown-item.active, .dropdown-item:active {

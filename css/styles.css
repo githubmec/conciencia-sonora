@@ -156,10 +156,10 @@ strong {
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-	border: 0.125rem solid #47eae7;
+	border: 0.125rem solid #2C3333;
 	border-radius: 2rem;
-	background-color: #47eae7;
-	color: #0b0433;
+	background-color: #2C3333;
+	color: #ffffff;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s ease;
@@ -167,7 +167,7 @@ strong {
 
 .btn-solid-lg:hover {
 	background-color: transparent;
-	color: #47eae7;
+	color: #de4c82	;
 	text-decoration: none;
 }
 
@@ -578,7 +578,7 @@ input[type='checkbox'] {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: #0b0433;
+	background-image: linear-gradient(to left top, #000000, #151515, #242424, #323232, #424242);
 }
 
 .spinner {
@@ -596,7 +596,7 @@ input[type='checkbox'] {
 	width: 1rem;
 	height: 1rem;
 	border-radius: 100%;
-	background-color: #ededf9;
+	background-color: #de4c82;
 	-webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
 	animation: sk-bouncedelay 1.4s infinite ease-in-out both;
 }
@@ -633,16 +633,16 @@ input[type='checkbox'] {
 /*     03. Navigation     */
 /**************************/
 .navbar-custom {
-	background-color: #34304c9f;
+	background-color: #34304c57;
 	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.3);
 	font: 600 0.75rem/0.75rem "Montserrat", sans-serif;
 	transition: all 0.2s ease;
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-    width: 4rem;
-	height: 4rem;
-	margin-left: 3rem;
+    width: 3rem;
+	height: 2.5rem;
+	margin-left: 0.8rem;
 	-webkit-backface-visibility: hidden;
 }
 
@@ -692,19 +692,20 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .dropdown-menu {
-	margin-top: 0;
+	margin-top: 30;
 	border: none;
 	border-radius: 0.25rem;
-	background-color: #34304c;
+	background-color: #34304c57;
 }
 
 .navbar-custom .dropdown-item {
-	color: #ededf9;
+	color: #f9edf9;
 	text-decoration: none;
 }
 
 .navbar-custom .dropdown-item:hover {
-	background-color: #34304c;
+	color: #000000;
+	text-decoration: none;
 }
 
 .navbar-custom .dropdown-item .item-text {
@@ -712,7 +713,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .dropdown-item:hover .item-text {
-	color: #47eae7;
+	color: #de4c82;
 }
 
 .navbar-custom .dropdown-items-divide-hr {
@@ -720,7 +721,7 @@ input[type='checkbox'] {
 	height: 1px;
 	margin: 0.75rem auto 0.75rem auto;
 	border: none;
-	background-color: #b5bcc4;
+	background-color: #c4b5b5;
 	opacity: 0.2;
 }
 /* end of dropdown menu */
@@ -732,7 +733,7 @@ input[type='checkbox'] {
 .navbar-custom .navbar-toggler {
 	padding: 0;
 	border: none;
-	color: #ededf9;
+	color: #f9eded;
 	font-size: 2rem;
 }
 
@@ -784,7 +785,7 @@ input[type='checkbox'] {
 }
 
 .header #js-rotating {
-	color: #f34c4c;
+	color: #de4c82;
 	font-size: 4rem;
 }
 
@@ -800,7 +801,7 @@ input[type='checkbox'] {
 .header .btn-solid-lg:hover {
 	border: 1px solid #fff;
 	background-color: transparent;
-	color: #fff;
+	color: #de4c82;
 }
 
 
@@ -854,7 +855,7 @@ input[type='checkbox'] {
 	padding: 2.5rem 1.625rem 1.25rem 1.625rem;
 	border: none;
 	border-radius: 1rem;
-	background-color: #ffffff;
+	background-color: #2c333379;
 }
 
 .cards .card-image {
@@ -862,8 +863,8 @@ input[type='checkbox'] {
 }
 
 .cards .fas {
-	color: #ce4040;
-	font-size: 4rem;
+	color: #a85398;
+	font-size: 4.4rem;
 }
 
 .cards .card-body {
@@ -871,12 +872,12 @@ input[type='checkbox'] {
 }
 
 .cards .card-title {
-	margin-bottom: 0.5rem;
-	color: #235379;
+	margin-bottom: 1.0rem;
+	color: #ff5757;
 }
 
 .cards .card-body 	p {
-	color: #414141;
+	color: #ffffff;
 }
 
 
@@ -885,8 +886,8 @@ input[type='checkbox'] {
 /**************************/
 .basic-1 {
 	padding-top: 4rem;
-	padding-bottom: 6rem;
-	background: url('../images/features-1-background.jpg') center center no-repeat;
+	padding-bottom: 2rem;
+	background: url('../images/features-2-background.png') center center no-repeat;
 	background-size: cover;
 }
 
@@ -1110,17 +1111,20 @@ input[type='checkbox'] {
 /*     10. Video     */
 /*********************/
 .basic-2 {
-	background-color: #0b0433;
+	background-color: #000000;
 	text-align: center;
+	padding-bottom: 6rem;
 }
 
 .basic-2 h2 {
-	margin-bottom: 1rem;
+	margin-bottom: 0.2rem;
 }
 
 .basic-2 .video-wrapper img {
-	border-top-right-radius: 0.375rem;
-	border-top-left-radius: 0.375rem;
+	border-top-right-radius: 6rem;
+	border-top-left-radius: 6rem;
+	border-bottom-right-radius: 6rem;
+	border-bottom-left-radius: 6rem;
 }
 
 .basic-2 .video-wrapper {
@@ -1131,7 +1135,7 @@ input[type='checkbox'] {
 .basic-2 .video-play-button {
 	position: absolute;
 	z-index: 10;
-	top: 50%;
+	top: 47%;
 	left: 50%;
 	display: block;
 	box-sizing: content-box;
@@ -1276,7 +1280,7 @@ input[type='checkbox'] {
 /*     12. Purchase     */
 /************************/
 .basic-3 {
-	padding-top: 7rem;
+	padding-top: 2rem;
 	padding-bottom: 3rem;
 	background-color:  #000000;
 	text-align: center;
@@ -1333,8 +1337,7 @@ input[type='checkbox'] {
 /*     14. Footer     */
 /**********************/
 .footer {
-	padding-top: 5rem;
-	
+	padding-top: 1rem;
 	background-color: #000000;
 }
 
@@ -1347,7 +1350,7 @@ input[type='checkbox'] {
 }
 
 .footer .list-unstyled .fas {
-	color: #47eae7;
+	color: #de4c82;
 	font-size: 0.875rem;
 	line-height: 1.375rem;
 }
@@ -1367,7 +1370,7 @@ input[type='checkbox'] {
 }
 
 .footer .social-icons .fab:hover {
-	color: #47eae7;
+	color: #de4c82;
 }
 
 .footer .footer-col {
@@ -1390,7 +1393,7 @@ input[type='checkbox'] {
 .copyright {
 	padding-top: 2rem;
 	padding-bottom: 0.5rem;
-	border-top: 1px solid #5050502f;
+	border-top: 1px solid #66666642;
 	background-color: #000000;
 	text-align: center;
 }
@@ -1413,13 +1416,13 @@ a.back-to-top {
 	width: 2.625rem;
 	height: 2.625rem;
 	border-radius: 1.875rem;
-	background: #47eae7 url("../images/up-arrow.png") no-repeat center 47%;
+	background: #ffffff9a url("../images/up-arrow.png") no-repeat center 47%;
 	background-size: 1.125rem 1.125rem;
 	text-indent: -9999px;
 }
 
 a:hover.back-to-top {
-	background-color: #37d1cf; 
+	background-color: #de4c82; 
 }
 
 
@@ -1526,7 +1529,7 @@ a:hover.back-to-top {
 	}
 	
 	.navbar-custom .navbar-brand.logo-text {
-		color: #fff;
+		color: rgb(255, 255, 255);
 	}
 
 	.navbar-custom .navbar-nav {
@@ -1535,22 +1538,22 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom .nav-item .nav-link {
-		padding: 0.25rem 0.625rem 0.25rem 0.625rem;
+		padding: 1.25rem 0.625rem 0.25rem 0.625rem;
 	}
 	
 	.navbar-custom .nav-item .nav-link:hover,
 	.navbar-custom .nav-item .nav-link.active {
-		color: #47eae7;
+		color: #de4c82;
 	}
 
 	.navbar-custom.top-nav-collapse {
         padding: 0.5rem 1.5rem 0.5rem 2rem;
 		box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.3);
-		background-color: #34304cd2;
+		background-color: #2f435867;
 	}
 
 	.navbar-custom.top-nav-collapse .navbar-brand.logo-text {
-		color: #fff;
+		color: rgb(255, 255, 255);
 	}
 
 	.navbar-custom.top-nav-collapse .nav-item .nav-link {
@@ -1559,7 +1562,8 @@ a:hover.back-to-top {
 	
 	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
 	.navbar-custom.top-nav-collapse .nav-item .nav-link.active {
-		color: #47eae7;
+		color: #de4c82
+		;
 	}
 
 	.navbar-custom .dropdown-menu {
@@ -1570,7 +1574,7 @@ a:hover.back-to-top {
 	}
 	
 	.navbar-custom.top-nav-collapse .dropdown-menu {
-		border-top: 0.25rem solid rgba(0, 0, 0, 0);
+		border-top: 0.40rem solid rgba(0, 0, 0, 0);
 		box-shadow: 0 0.25rem 0.375rem 0 rgba(0, 0, 0, 0.1);
 	}
 
@@ -1622,6 +1626,7 @@ a:hover.back-to-top {
 	.header .logo-container img {
 		margin-top: 0.5rem;
 		margin-bottom: 0.5rem;
+		width: 5%;
 	}
 	/* end of header */
 
@@ -1776,8 +1781,8 @@ a:hover.back-to-top {
 
 	/* Features 1 */
 	.basic-1 {
-		padding-top: 5rem;
-		padding-bottom: 8rem;
+		padding-top: 1rem;
+		padding-bottom: 0rem;
 	}
 
 	.basic-1 .image-container {
@@ -1932,6 +1937,7 @@ a:hover.back-to-top {
 
 	.basic-1 .image-container {
 		margin-right: 4rem;
+		margin-top: 2.5rem;
 	}
 	/* end of features 1 */
 
@@ -1994,12 +2000,12 @@ a:hover.back-to-top {
 	
 	/* Navigation */
 	.navbar-custom {
-		padding-right: 8rem;
+		padding-right: 1rem;
 		padding-left: 8rem;
 	}
 
 	.navbar-custom.top-nav-collapse {
-		padding-right: 8rem;
+		padding-right: 1rem;
 		padding-left: 8rem;
 	}
 	/* end of navigation */
