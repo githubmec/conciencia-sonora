@@ -483,6 +483,7 @@ mark,
 
 .img-fluid2 {
   max-width: 110%;
+  margin-top: 2rem;
   margin-bottom: 13rem;
   height: auto;
 }
