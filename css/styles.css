@@ -568,6 +568,46 @@ input[type='checkbox'] {
 /* end of fade animation for image slider - magnific popup */
 
 
+/** LIGHTBOX MARKUP **/
+
+.lightbox {
+	/* Default to hidden */
+	display: none;
+  
+	/* Overlay entire screen */
+	position: fixed;
+	z-index: 999;
+	top: 2rem;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	
+	/* A bit of padding around image */
+	padding:0;
+  
+	/* Translucent background */
+	background: rgba(0, 0, 0, 0.651);
+  }
+  
+  /* Unhide the lightbox when it's the target */
+  .lightbox:target {
+	display: block;
+  }
+  
+  .lightbox span {
+	/* Full width and height */
+	display: block;
+	width: 100%;
+	height: 100%;
+  
+	/* Size and position background image */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+  }
+
+
+
 /*************************/
 /*     02. Preloader     */
 /*************************/
