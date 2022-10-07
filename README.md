@@ -32,3 +32,4 @@ Para indexar la web se procedió a su verificacion utilizando [Google Search Con
 ## Herramientas
 * https://mycolor.space/
 * https://www.w3schools.com/icons/fontawesome5_icons_brands.asp
+* [Paleta de colores utilizada](palette_color.pdf)
